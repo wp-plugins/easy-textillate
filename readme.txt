@@ -14,12 +14,11 @@ The plugin allows you to add animation to any text using shortcodes in posts, pa
 
 The plugin fully utilizes the capabilities of the `Textillate.js` script and is very easy to use – you don’t need to spend time including scripts and style files. Just create a shortcode with the necessary animation and paste it into your post.
 
- `Easy Textillate` uses the following libraries:
+Easy Textillate uses the following libraries:
 
 * [textillate.js](https://jschr.github.io/textillate/) by Jordan Schroter
 * [animate.css](http://daneden.github.io/animate.css/) by Daniel Eden
 * [lettering.js](http://letteringjs.com/) by Dave Rupert
-* [fittext.js](http://fittextjs.com/) by Dave Rupert
 
 If you liked my plugin, please `rate` it.
  

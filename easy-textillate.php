@@ -84,7 +84,6 @@ jQuery(document).ready(function(){
 function easy_textillate_files() {
 	$purl = plugins_url();
 	
-	wp_register_script('easy-textillate-fittext', $purl . '/easy-textillate/inc/jquery.fittext.js');  
     wp_register_script('easy-textillate-lettering', $purl . '/easy-textillate/inc/jquery.lettering.js');  
     wp_register_script('easy-textillate-textillate', $purl . '/easy-textillate/inc/jquery.textillate.js');  
     wp_register_script('easy-textillate-zclip', $purl . '/easy-textillate/inc/jquery.zclip.js');  
@@ -92,7 +91,6 @@ function easy_textillate_files() {
     wp_register_style('easy-textillate', $purl . '/easy-textillate/inc/easy-textillate.css');
 	
 	if(!wp_script_is('jquery')) {wp_enqueue_script('jquery');}
-	wp_enqueue_script('easy-textillate-fittext');
     wp_enqueue_script('easy-textillate-lettering');
     wp_enqueue_script('easy-textillate-textillate');
     wp_enqueue_style('easy-textillate-animate');
@@ -247,7 +245,6 @@ function easy_textillate_options_page() {
             <li><a target="_blank" href="https://jschr.github.io/textillate/">textillate.js</a>, <?php _e('by', 'easy-textillate'); ?> Jordan Schroter</li>
             <li><a target="_blank" href="http://daneden.github.io/animate.css/">animate.css</a>, <?php _e('by', 'easy-textillate'); ?> Daniel Eden</li>
             <li><a target="_blank" href="http://letteringjs.com/">lettering.js</a>, <?php _e('by', 'easy-textillate'); ?> Dave Rupert</li>
-            <li><a target="_blank" href="http://fittextjs.com/">fittext.js</a>, <?php _e('by', 'easy-textillate'); ?> Dave Rupert</li>
             </ul>
       </div>
    
@@ -360,14 +357,6 @@ function easy_textillate_admin_print_scripts() {
 
     $form.find('[data-key="effect"][data-type="in"]').val('fadeInLeftBig');
     $form.find('[data-key="effect"][data-type="out"]').val('hinge');
-
-    $('.jumbotron h1')
-      .fitText(0.5)
-      .textillate({ in: { effect: 'flipInY' }});
-    
-    $('.jumbotron p')
-      .fitText(3.2, { maxFontSize: 18 })
-      .textillate({ initialDelay: 1000, in: { delay: 3, shuffle: true } });
 
     setTimeout(function () {
         $('.fade').addClass('in');
