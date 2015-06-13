@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Textillate ru_RU\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-10 12:41+0300\n"
+"PO-Revision-Date: 2015-06-10 12:41+0300\n"
+"Last-Translator: Flector <rlector@gmail.com>\n"
+"Language-Team: WordpressPlugins.ru <rlector@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../easy-textillate.php:111
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../easy-textillate.php:122
+msgid "Easy Textillate Settings"
+msgstr "Настройки Easy Textillate"
+
+#: ../easy-textillate.php:128
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: ../easy-textillate.php:144
+msgid "Your Text"
+msgstr "Ваш текст"
+
+#: ../easy-textillate.php:145
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr "Лиса живет хитростью, а заяц прыткостью."
+
+#: ../easy-textillate.php:148
+msgid "In Animation"
+msgstr "Начальная анимация"
+
+#: ../easy-textillate.php:159
+msgid "Out Animation"
+msgstr "Конечная анимация"
+
+#: ../easy-textillate.php:180
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: ../easy-textillate.php:192 ../easy-textillate.php:215
+msgid "Copy to ClipBoard"
+msgstr "Копировать в буфер"
+
+#: ../easy-textillate.php:202
+msgid "PHP code"
+msgstr "PHP код"
+
+#: ../easy-textillate.php:225
+msgid "Additional Options"
+msgstr "Дополнительные опции"
+
+#: ../easy-textillate.php:228
+msgid "You can use additional shortcode options:"
+msgstr "Вы можете использовать дополнительные опции шорткода:"
+
+#: ../easy-textillate.php:231
+msgid "enable looping  ('true' or 'false', 'true' is default)"
+msgstr ""
+"включение и отключение повторения ('true' - включено, 'false' - отключено, "
+"'true' - по умолчанию)"
+
+#: ../easy-textillate.php:232
+msgid ""
+"sets the minimum display time for each text before it is replaced ('2000' is "
+"default)"
+msgstr "время, через которое анимация будет повторена  ('2000' по умолчанию)"
+
+#: ../easy-textillate.php:233
+msgid "sets the initial delay before starting the animation ('0' is default)"
+msgstr "задержка перед стартом анимации ('0' по умолчанию)"
+
+#: ../easy-textillate.php:234
+msgid "set the delay between each character ('50' is default)"
+msgstr "отдельная задержка для каждого символа ('50' по умолчанию)"
+
+#: ../easy-textillate.php:241
+msgid "About"
+msgstr "О плагине"
+
+#: ../easy-textillate.php:244
+msgid "<strong>Easy Textillate</strong> uses the following libraries:"
+msgstr "<strong>Easy Textillate</strong> использует следующие библиотеки:"
+
+#: ../easy-textillate.php:247 ../easy-textillate.php:248
+#: ../easy-textillate.php:249 ../easy-textillate.php:250
+msgid "by"
+msgstr "от"
+
+#: ../easy-textillate.php:258
+msgid "Do you like this plugin ?"
+msgstr "Вам нравится этот плагин ?"
+
+#: ../easy-textillate.php:260
+msgid "buy me a coffee"
+msgstr "Купить мне чашку кофе :)"
+
+#: ../easy-textillate.php:262
+msgid "Hi! I'm <strong>Flector</strong>, developer of this plugin."
+msgstr "Привет, меня зовут <strong>Flector</strong>."
+
+#: ../easy-textillate.php:263
+msgid "I've been spending many hours to develop this plugin."
+msgstr "Я потратил много времени на разработку этого плагина."
+
+#: ../easy-textillate.php:264
+msgid ""
+"If you like and use this plugin, you can <strong>buy me a cup of coffee</"
+"strong>."
+msgstr "Поэтому не откажусь от небольшого пожертвования :)"
+
+#: ../easy-textillate.php:268
+msgid "Donate with PayPal"
+msgstr "Пожертвовать через PayPal"
+
+#: ../easy-textillate.php:458 ../easy-textillate.php:471
+msgid "The code is in your clipboard now:"
+msgstr "Код в буфере обмена:"
