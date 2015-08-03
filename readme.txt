@@ -3,7 +3,7 @@ Contributors: Flector
 Donate link: http://goo.gl/CcxWYg
 Tags: animate, css3, text, text moving, textillate, bbpress, animated, animate, animation, animations, rotate, slide, admin, widget, widget title, widgets, effects, transitions, 3d, jquery, sidebar, post, posts, title, font, fonts, javascript, js, plugin, transition, css2, fading, fade, sliding, page, pages, content, media, wordpress
 Requires at least: 3.3
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: trunk
 
 Very beautiful text animations (shortcodes in posts and widgets or PHP code in theme files).
